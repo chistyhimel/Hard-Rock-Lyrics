@@ -58,7 +58,7 @@ function fetchMusic(searchValue) {
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="lyrics-name">${songTitle}</h3>
-                                    <p class="author lead">songInfo by <span>${artistName}</span></p>
+                                    <p class="author lead">Album by <span>${artistName}</span></p>
                                 </div>
                                 <div class="col-md-3 text-md-right text-center">
                                     <button onclick="getLyrics('${artistName}','${songTitle}')" class="btn btn-success">Get Lyrics</button>
